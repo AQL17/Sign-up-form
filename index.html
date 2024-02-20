@@ -3,15 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        
+    <div class="imgbox" >
+    <div class="odin-box">
+        <img class = "odin" src="./image.svg" alt="HxH">
+        <div class="img-text">Hunter</div>
+
     </div>
-    <div>
-        <img src="./book-open.svg" alt="book logo">
+        <div class="credit">
+            Photo from <a href="https://pinterest.com">Pinterest</a>
+        </div>   
     </div>
+    <form action="" method="get" class="main-form">
+        <div class="heading">
+            <h2>
+                Hey there! Do you wanna be a <b>hunter</b> that explores the unkown realm and fights through the toughest situations?
+            </h2>
+            <h2>
+                Sign up <i>now</i> to get started.
+            </h2>
+        </div>
+            <h3>
+                You <i>know</i> you want to.
+            </h3>
+        <Fieldset>
+        <div class="container">
+            <div class="form-head">
+                <h2 >Let's do this!</h2>
+            </div>
+            <div class="form-row">
+                <div class="form-content">
+                    <label for="Firstname">* First Name:</label>
+                    <input type="text" id="Firstname" name="firstname" required>
+                </div>
+                <div class="form-content">
+                    <label for="Lastname">* Last Name:</label>
+                    <input type="text" id="Lastname" name="lastname" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-content">
+                    <label for="Email">* Email:</label>
+                    <input type="email" id="Email" name="email" required>
+                </div>
+                <div class="form-content">
+                    <label for="phone" >Phone Number:</label>
+                    <input type="text" id="phone" name="phone" pattern="\+?[0-9]*" >
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-content">
+                    <label for="password" aria-label="required">* Password:</label>
+                    <input class = "Error" type="password" id="password" name="password" required>
+                </div>
+                <div class="form-content">
+                    <label for="confirm-password" aria-label="required">* Confirm Password:</label>
+                    <input class = "Error" type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>
+           
+        </div>       
+        </Fieldset>
+        <button type="submit" class="Submit">Register</button>
+        <p>
+            Already a hunter? <br> <a href="">Login?</a>
+        </p>
+
+    </form>
 
     
 </body>

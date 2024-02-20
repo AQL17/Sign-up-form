@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Hunter";
+    src: url(./hunter-x-hunter-jap-sans-serif.woff2) format("woff2");
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{   
+    display: flex; 
+    margin: 0;
+    gap: 100px;
+    font-family: Hunter,sans-serif;
+    font-size: larger;
+    background-color: #071E22;
+    color: white;
+}
+
+.imgbox{
+    background-image: url(./Hunter\ x\ hunter.jpeg);
+    min-width: 70vh;
+    min-height: auto;
+    height: 120vh;
+    width: 100vh;
+    background-size: cover;
+}
+
+.credit{
+    position: absolute;
+    bottom: 10px;
+    overflow: hidden;
+    color: gray;
+    margin-left: 20px;
+}
+.heading{
+    margin-top: 10vh;
+}
+
+.odin{
+    height: 30vh;
+    width: 30vh;
+}
+.img-text{
+    display: inline;
+    font-size: 3em;
+    width:100%;
+    color: gray;
+}
+.odin-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10vh;
+    padding-left: 10vh;
+}
+
+fieldset{
+    width: 120vh;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form-head{
+    margin: 20px;
+}
+
+.form-row{
+    display: flex;
+    width: 100vh;
+
+}
+
+.form-content{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.form-content>input{
+    width: 50vh;
+    height: 4vh;
+}
+.Submit{
+    height: 5vh;
+    width: 20vh;
+    text-align: center;
+    border: 3px solid black;
+    background-color: #596D48;
+    color: white;
+    font-family: Hunter,sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+}
+p{
+    font-size: larger;
+}
+
+.form-content>input:focus{
+    box-shadow: 10px 10px 10px 10px black;
+    border: 1px solid blue;
+}
